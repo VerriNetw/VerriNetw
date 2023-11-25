@@ -1,0 +1,22 @@
+<!-- public/write-thought.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrivi un Pensiero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Scrivi un Pensiero</h1>
+  
+  <form action="/add-thought" method="post">
+    <textarea name="thought" maxlength="500" placeholder="Scrivi il tuo pensiero (max 500 caratteri)" required></textarea>
+    <button type="submit">Pubblica</button>
+  </form>
+
+  <a href="/">Torna alla Home</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
